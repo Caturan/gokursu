@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"golesson/functions"
-)
-
 func main() {
 	//variables.Demo1()
 	//fmt.Print()
@@ -31,13 +26,19 @@ func main() {
 	// fmt.Println("Multiplication is: ", result3)
 	// fmt.Println("Division is: ", resul4)
 
-	var result = functions.AddVariadic(1, 4, 6, 8, 3)
-	fmt.Println("Addition is: ", result)
+	// var result = functions.AddVariadic(1, 4, 6, 8, 3)
+	// fmt.Println("Addition is: ", result)
 
-	var result2 = functions.AddVariadic(5, 3, 9, 7)
-	fmt.Println("Addition is:", result2)
+	// var result2 = functions.AddVariadic(5, 3, 9, 7)
+	// fmt.Println("Addition is:", result2)
 
-	exArray := []int{2, 8, 7, 3, 9, 10}
-	var result3 = functions.AddVariadic(exArray...)
-	fmt.Println("Addition is: ", result3)
+	// exArray := []int{2, 8, 7, 3, 9, 10}
+	// var result3 = functions.AddVariadic(exArray...)
+	// fmt.Println("Addition is: ", result3)
+
+	//maps.Demo1()
+
+	//Range.Demo1()
+	//Range.Demo2()
+	//Range.Demo3()
 }
