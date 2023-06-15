@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"golesson/pointers"
+)
+
 func main() {
 	//variables.Demo1()
 	//fmt.Print()
@@ -41,4 +46,13 @@ func main() {
 	//Range.Demo1()
 	//Range.Demo2()
 	//Range.Demo3()
+
+	//num := 18
+	//pointers.Demo1(&num)
+	//fmt.Println("Result in main: ", num)
+
+	numbers := []int{0, 1, 2}
+	pointers.Demo2(numbers)
+	fmt.Println("Result in main :", numbers[0])
+
 }
