@@ -1,5 +1,7 @@
 package main
 
+import "golesson/interfaces"
+
 func main() {
 	//variables.Demo1()
 	//fmt.Print()
@@ -74,4 +76,10 @@ func main() {
 		multi := evenNumberSum * oddNumberSum
 		fmt.Println("Multiplication: ", multi)
 	*/
+
+	interfaces.Demo1()
+
+	interfaces.Demo2()
+
+	interfaces.Demo3()
 }
