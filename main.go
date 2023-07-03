@@ -1,7 +1,5 @@
 package main
 
-import "golesson/structs"
-
 func main() {
 	//variables.Demo1()
 	//fmt.Print()
@@ -54,6 +52,26 @@ func main() {
 
 	//structs.Demo1()
 
-	structs.Demo2()
+	//structs.Demo2()
 
+	/*	 Routines
+	//go goroutines.EvenNumbers()
+	//go goroutines.OddNumbers()
+
+	//time.Sleep(7 * time.Second)
+	//fmt.Println("Main over")
+	*/
+
+	/*	Channels
+		evenNumberCn := make(chan int)
+		oddNumberCn := make(chan int)
+
+		go channels.EvenNumbers(evenNumberCn)
+		go channels.OddNumbers(oddNumberCn)
+
+		evenNumberSum, oddNumberSum := <-evenNumberCn, <-oddNumberCn
+
+		multi := evenNumberSum * oddNumberSum
+		fmt.Println("Multiplication: ", multi)
+	*/
 }
