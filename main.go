@@ -1,6 +1,6 @@
 package main
 
-import "golesson/interfaces"
+import deferstatement "golesson/defer_statement"
 
 func main() {
 	//variables.Demo1()
@@ -77,9 +77,19 @@ func main() {
 		fmt.Println("Multiplication: ", multi)
 	*/
 
+	/*	 Interfaces
+
 	interfaces.Demo1()
 
 	interfaces.Demo2()
 
 	interfaces.Demo3()
+	*/
+
+	//deferstatement.B()
+
+	//deferstatement.Test()
+
+	deferstatement.Demo3()
+
 }
