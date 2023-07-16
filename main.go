@@ -122,10 +122,20 @@ func main() {
 
 	//project.AddProduct3()
 
-	products, _ := project.GetAllProducts()
+	//products, _ := project.GetAllProducts()
 
-	for i := 0; i < len(products); i++ {
-		fmt.Println(products[i].ProductName)
-	}
+	/*
+		for i := 0; i < len(products); i++ {
+			fmt.Println(products[i].ProductName)
+		}
+	*/
+
+	categories, _ := project.GetAllCategories()
+	fmt.Println(categories)
+
+	//project.AddCategory()
+	fmt.Println(categories)
+
+	//project.AddCategory2()
 
 }

@@ -50,7 +50,15 @@
     },
     {
       "id": 1,
-      "categoryName": "Acsessory"
+      "categoryName": "Accessory"
+    },
+    {
+      "id": 2,
+      "categoryName": "Office&Home"
+    },
+    {
+      "id": 3,
+      "categoryName": "Textile"
     }
   ]
 }
