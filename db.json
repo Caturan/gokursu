@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "productName": "Laptop",
+      "category": 0,
+      "unitPrice": 4999.99
+    },
+    {
+      "id": 1,
+      "productName": "HeadPhone",
+      "category": 0,
+      "unitPrice": 139.99
+    },
+    {
+      "id": 2,
+      "productName": "Keyboard",
+      "category": 0,
+      "unitPrice": 69.99
+    },
+    {
+      "id": 3,
+      "productName": "Chain",
+      "category": 1,
+      "unitPrice": 11.99
+    },
+    {
+      "id": 4,
+      "productName": "iPhone",
+      "category": 0,
+      "UnitPrice": 899.99
+    },
+    {
+      "id": 5,
+      "productName": "Ring",
+      "category": 1,
+      "UnitPrice": 299.99
+    },
+    {
+      "id": 6,
+      "productName": "SmartWatch",
+      "category": 0,
+      "UnitPrice": 349.99
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "categoryName": "Technology"
+    },
+    {
+      "id": 1,
+      "categoryName": "Acsessory"
+    }
+  ]
+}
