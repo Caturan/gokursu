@@ -1,2 +1,3 @@
-# gokursu
-This repo will be updated at the end of each issue. Basic problems, learn easily:)
+# LearnGo
+Simple & basic. Can find info about the topics. Just click
+:)
